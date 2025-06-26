@@ -3,7 +3,7 @@ import React from 'react'
 const App = () => {
     return (
         <div>
-            <h2>Getting Started</h2>
+            <h2 className='text-3xl underline text-red-400' >Getting Started</h2>
         </div>
     )
 }
