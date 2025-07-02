@@ -2,6 +2,7 @@ import React from 'react'
 
 
 import { words } from '../constants'
+import Button from './Button'
 
 
 
@@ -35,10 +36,14 @@ const Hero = () => {
               <h1  >into real projects</h1>
               <h1  >that deliver results</h1>
 
-
             </div>
+<p className='text-3xl' >Hi, I am Hamza, a software engineering student based in Pakistan, who loves to develop applications that solve problems.
+.</p>
           </div>
-
+<Button
+className='relative w-auto flex items-center gap-3 px-6 py-3 rounded-full bg-white-50 hover:bg-white transition-all  duration-300 hover:scale-105 active:scale-95 shadow-md group'
+text="see my work"
+/>
         </header>
       </div>
     </section>
